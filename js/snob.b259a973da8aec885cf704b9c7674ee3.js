@@ -31,7 +31,17 @@ const thispagespools = [
     token1: '0xC38f41A296A4493Ff429F1238e030924A1542e50',
     pair: '0x97b4957df08e185502a0ac624f332c7f8967ee8d',
     stake: '0x08B9A023e34Bad6Db868B699fa642Bf5f12Ebe76'
-  }
+  },
+  {
+    pool_id: 'joe-avax-snob',
+    network: 'TraderJoe',
+    snowglobe: '0x8b2E1802A7E0E0c7e1EaE8A7c636058964e21047',
+    nickname: 'AVAX-SNOB Joe LP',
+    token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+    token1: '0xC38f41A296A4493Ff429F1238e030924A1542e50',
+    pair: '0x8fB5bD3aC8eFD05DACae82F512dD03e14aAdAb73',
+    stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
+  },
 ]
 
 async function main() {  
