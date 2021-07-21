@@ -121,6 +121,16 @@ const thispagespools = [
     token1: '0x6e7f5C0b9f4432716bDd0a77a3601291b9D9e985',
     pair: '0xad24a72ffe0466399e6f69b9332022a71408f10b',
     stake: '0x12A33F6B0dd0D35279D402aB61587fE7eB23f7b0'
+  },
+  {
+    pool_id: 'png-bnb',
+    network: 'Pangolin',
+    snowglobe: '0x585DE92A24057400a7c445c89338c7d6c61dd080',
+    nickname: 'PNG-BNB Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0x264c1383EA520f73dd837F915ef3a732e204a493',
+    pair: '0x76BC30aCdC88b2aD2e8A5377e59ed88c7f9287f9',
+    stake: '0x68a90C38bF4f90AC2a870d6FcA5b0A5A218763AD'
   }
 ]
 

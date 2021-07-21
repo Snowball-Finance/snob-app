@@ -174,8 +174,16 @@ $(function () {
       pair: '0x7012ae2b092f12be1820acd5f1aed5d73e3116e6',
       stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
     },
-
-    
+    {
+      pool_id: 'avax-bnb',
+      network: 'Pangolin',
+      snowglobe: '0x39BF214A93EC72e42bC0B9b8C07BE1af6Fe169dA',
+      nickname: 'AVAX-BNB Pangolin LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0x264c1383EA520f73dd837F915ef3a732e204a493',
+      pair: '0xF776Ef63c2E7A81d03e2c67673fd5dcf53231A3f',
+      stake: '0x21CCa1672E95996413046077B8cf1E52F080A165'
+    }
   ]
   
   async function main() {  
