@@ -183,16 +183,6 @@ $(function () {
       token1: '0x264c1383EA520f73dd837F915ef3a732e204a493',
       pair: '0xF776Ef63c2E7A81d03e2c67673fd5dcf53231A3f',
       stake: '0x21CCa1672E95996413046077B8cf1E52F080A165'
-    },
-    {
-      pool_id: 'joe-usdt',
-      network: 'TraderJoe',
-      snowglobe: '0x18807D2e81F4dd7cef1348B70d23257A587e304E',
-      nickname: 'Joe-USDT Joe LP',
-      token0: '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
-      token1: '0xde3A24028580884448a5397872046a019649b084',
-      pair: '0x29e0120dE4406E9B2e28b15937B67EAe5e50C510',
-      stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
     }
   ]
   
