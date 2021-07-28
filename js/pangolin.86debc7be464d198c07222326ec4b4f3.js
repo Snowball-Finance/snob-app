@@ -131,6 +131,16 @@ const thispagespools = [
     token1: '0x264c1383EA520f73dd837F915ef3a732e204a493',
     pair: '0x76BC30aCdC88b2aD2e8A5377e59ed88c7f9287f9',
     stake: '0x68a90C38bF4f90AC2a870d6FcA5b0A5A218763AD'
+  },
+  {
+    pool_id: 'joe-png-joe',
+    network: 'TraderJoe',
+    snowglobe: '0xB4Fe95e89ED8894790aA6164f29FaC4B0De94f47',
+    nickname: 'JOE-PNG Joe LP',
+    token0: '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
+    token1: '0x60781C2586D68229fde47564546784ab3fACA982',
+    pair: '0xE4B66cA7a32DDc21df3c1233866957573e7EC744',
+    stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
   }
 ]
 

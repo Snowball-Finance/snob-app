@@ -183,6 +183,36 @@ $(function () {
       token1: '0x264c1383EA520f73dd837F915ef3a732e204a493',
       pair: '0xF776Ef63c2E7A81d03e2c67673fd5dcf53231A3f',
       stake: '0x21CCa1672E95996413046077B8cf1E52F080A165'
+    },
+    {
+      pool_id: 'joe-avax-xava',
+      network: 'TraderJoe',
+      snowglobe: '0x0B2C4f6C54182EDeE30DFF69Be972f9E04888321',
+      nickname: 'AVAX-XAVA Joe LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4',
+      pair: '0x72c3438cf1c915EcF5D9F17A6eD346B273d5bF71',
+      stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
+    },
+    {
+      pool_id: 'joe-avax-usdt',
+      network: 'TraderJoe',
+      snowglobe: '0xB305856C54efC004955BC51e3D20ceF566C11eEE',
+      nickname: 'AVAX-USDT Joe LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0xde3A24028580884448a5397872046a019649b084',
+      pair: '0xE4B9865C0866346BA3613eC122040A365637fB46',
+      stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
+    },
+    {
+      pool_id: 'joe-avax-dai',
+      network: 'TraderJoe',
+      snowglobe: '0xAD050d11521dd1dD2Cc136A9e979BAA8F6Fab69a',
+      nickname: 'AVAX-DAI Joe LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0xbA7dEebBFC5fA1100Fb055a87773e1E99Cd3507a',
+      pair: '0x43B9C8dEC26C2D21146466cAacabf94FdbEac473',
+      stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
     }
   ]
   
