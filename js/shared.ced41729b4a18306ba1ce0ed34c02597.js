@@ -39,7 +39,8 @@ const TOKEN_NAMES = {
     "0x846d50248baf8b7ceaa9d9b53bfd12d7d7fbb25a": "VSO",
     "0x6e7f5C0b9f4432716bDd0a77a3601291b9D9e985": "SPORE",
     "0x99519acb025a0e0d44c3875a4bbf03af65933627": "YFI",
-    "0x8ce2dee54bb9921a2ae0a63dbb2df8ed88b91dd9": "AAVE"
+    "0x8ce2dee54bb9921a2ae0a63dbb2df8ed88b91dd9": "AAVE",
+    "0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4": "XAVA"
   }
 
 const walletcopy = () => {

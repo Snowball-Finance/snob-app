@@ -141,6 +141,16 @@ const thispagespools = [
     token1: '0x60781C2586D68229fde47564546784ab3fACA982',
     pair: '0xE4B66cA7a32DDc21df3c1233866957573e7EC744',
     stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
+  },
+  {
+    pool_id: 'png-png-xava',
+    network: 'Pangolin',
+    snowglobe: '0xF23c55a05C9f24177FFF5934e8192461AeE4f304',
+    nickname: 'PNG-XAVA Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4',
+    pair: '0x851D47BE09BD0D3c2B24922e34a4f8AE05456924',
+    stake: '0x5b3Ed7f47D1d4FA22b559D043a09d78bc55A94E9'
   }
 ]
 
