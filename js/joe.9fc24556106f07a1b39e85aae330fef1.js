@@ -28,10 +28,30 @@ const thispagespools = [
       pool_id: 'joe-usdt',
       network: 'TraderJoe',
       snowglobe: '0x18807D2e81F4dd7cef1348B70d23257A587e304E',
-      nickname: 'Joe-USDT Joe LP',
+      nickname: 'JOE-USDT Joe LP',
       token0: '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
       token1: '0xde3A24028580884448a5397872046a019649b084',
       pair: '0x29e0120dE4406E9B2e28b15937B67EAe5e50C510',
+      stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
+    },
+    {
+      pool_id: 'joe-dai',
+      network: 'TraderJoe',
+      snowglobe: '0x3A4b529d887E0d5672dEd31CE0d7a5202FDb43b2',
+      nickname: 'JOE-DAI Joe LP',
+      token0: '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
+      token1: '0xbA7dEebBFC5fA1100Fb055a87773e1E99Cd3507a',
+      pair: '0x061F9eDB3858D2Faa5f629f6AE34140C92229Ea8',
+      stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
+    },
+    {
+      pool_id: 'joe-png-joe',
+      network: 'TraderJoe',
+      snowglobe: '0xB4Fe95e89ED8894790aA6164f29FaC4B0De94f47',
+      nickname: 'JOE-PNG Joe LP',
+      token0: '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
+      token1: '0x60781C2586D68229fde47564546784ab3fACA982',
+      pair: '0xE4B66cA7a32DDc21df3c1233866957573e7EC744',
       stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
     }
 ]
