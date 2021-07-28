@@ -213,6 +213,16 @@ $(function () {
       token1: '0xbA7dEebBFC5fA1100Fb055a87773e1E99Cd3507a',
       pair: '0x43B9C8dEC26C2D21146466cAacabf94FdbEac473',
       stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
+    },
+    {
+      pool_id: 'png-avax-xava',
+      network: 'Pangolin',
+      snowglobe: '0x6AB8DAC517c244f53D86a155a14064E86c2dE653',
+      nickname: 'AVAX-XAVA Pangolin LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4',
+      pair: '0x42152bDD72dE8d6767FE3B4E17a221D6985E8B25',
+      stake: '0x4219330Af5368378D5ffd869a55f5F2a26aB898c'
     }
   ]
   
