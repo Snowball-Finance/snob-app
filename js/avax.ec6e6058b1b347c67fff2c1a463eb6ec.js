@@ -223,6 +223,56 @@ $(function () {
       token1: '0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4',
       pair: '0x42152bDD72dE8d6767FE3B4E17a221D6985E8B25',
       stake: '0x4219330Af5368378D5ffd869a55f5F2a26aB898c'
+    },
+    {
+      pool_id: 'joe-avax-vso',
+      network: 'TraderJoe',
+      snowglobe: '0xFB3ba5884aD5eBD93C7CB095e4cE08B1C365c2ea',
+      nickname: 'AVAX-VSO Joe LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0x846D50248BAf8b7ceAA9d9B53BFd12d7D7FBB25a',
+      pair: '0x00979Bd14bD5Eb5c456c5478d3BF4b6E9212bA7d',
+      stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
+    },
+    {
+      pool_id: 'joe-avax-elk',
+      network: 'TraderJoe',
+      snowglobe: '0x6440365E1c9282F50477b1F00289b3A7218E47Ef',
+      nickname: 'AVAX-ELK Joe LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C',
+      pair: '0x88D000E853d03E7D59CE602dff736Dc39aD118fb',
+      stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
+    },
+    {
+      pool_id: 'joe-avax-wbtc',
+      network: 'TraderJoe',
+      snowglobe: '0x86b109380aB2c34B740848b06Bee62C882F01df5',
+      nickname: 'AVAX-WBTC Joe LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0x408D4cD0ADb7ceBd1F1A1C33A0Ba2098E1295bAB',
+      pair: '0xbeB0b5FBd99b8e7498A4063CB419646922F6Eef8',
+      stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
+    },
+    {
+      pool_id: 'joe-avax-pefi',
+      network: 'TraderJoe',
+      snowglobe: '0x68691a1e8eAAE3dFDcC300BbC0d6D3902bA06E8d',
+      nickname: 'AVAX-PEFI Joe LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c',
+      pair: '0xb78c8238bD907c42BE45AeBdB4A8C8a5D7B49755',
+      stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
+    },
+    {
+      pool_id: 'joe-avax-link',
+      network: 'TraderJoe',
+      snowglobe: '0x4bD6D4fE5E3bBaa0FfB075EE9F0980FbcC6c0192',
+      nickname: 'AVAX-LINK Joe LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0xB3fe5374F67D7a22886A0eE082b2E2f9d2651651',
+      pair: '0xA964239892FB28b5565C70A51Fd4106F29f47A52',
+      stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
     }
   ]
   
