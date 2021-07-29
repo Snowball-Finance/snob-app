@@ -273,6 +273,16 @@ $(function () {
       token1: '0xB3fe5374F67D7a22886A0eE082b2E2f9d2651651',
       pair: '0xA964239892FB28b5565C70A51Fd4106F29f47A52',
       stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
+    },
+    {
+      pool_id: 'joe-avax-sherpa',
+      network: 'TraderJoe',
+      snowglobe: '0x75312b14Ce830EC078D93Ac8FA667b14BEAC18E6',
+      nickname: 'AVAX-SHERPA Joe LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0xa5E59761eBD4436fa4d20E1A27cBa29FB2471Fc6',
+      pair: '0xf0d7EC33147Ec3bEfd24B880472307bF3a01BB8A',
+      stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
     }
   ]
   
