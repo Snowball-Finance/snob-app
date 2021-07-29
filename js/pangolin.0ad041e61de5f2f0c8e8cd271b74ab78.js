@@ -143,7 +143,7 @@ const thispagespools = [
     stake: '0xd6a4F121CA35509aF06A0Be99093d08462f53052'
   },
   {
-    pool_id: 'png-png-xava',
+    pool_id: 'png-xava-png',
     network: 'Pangolin',
     snowglobe: '0xF23c55a05C9f24177FFF5934e8192461AeE4f304',
     nickname: 'PNG-XAVA Pangolin LP',
