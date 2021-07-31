@@ -22,11 +22,11 @@ const avaxTokens = [
     { "id": "verso", "symbol": "VSO", "contract": "0x846d50248baf8b7ceaa9d9b53bfd12d7d7fbb25a"},
     { "id": "wrapped-bitcoin", "symbol": "WBTC", "contract": "0x408D4cD0ADb7ceBd1F1A1C33A0Ba2098E1295bAB"},
     { "id": "spore", "symbol": "SPORE", "contract": "0x6e7f5C0b9f4432716bDd0a77a3601291b9D9e985"},
-    { "id": "joe", "symbol": "JOE ", "contract": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd"},
-    { "id": "pefi", "symbol": "PEFI", "contract": "0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c"},
-    { "id": "sherpa", "symbol": "SHERPA", "contract": "0xa5E59761eBD4436fa4d20E1A27cBa29FB2471Fc6"},
-    { "id": "xava", "symbol": "XAVA", "contract": "0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4"},
-    { "id": "elk", "symbol": "ELK", "contract": "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C"}
+    { "id": "joe", "symbol": "JOE ", "contract": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd"}, // awaiting coingecko integration
+    { "id": "penguin-finance", "symbol": "PEFI", "contract": "0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c"},
+    { "id": "sherpa", "symbol": "SHERPA", "contract": "0xa5E59761eBD4436fa4d20E1A27cBa29FB2471Fc6"}, // awaiting coingecko integration
+    { "id": "avalaunch", "symbol": "XAVA", "contract": "0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4"},
+    { "id": "elk", "symbol": "ELK", "contract": "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C"} // awaiting coingecko integration
 ]
 
 async function getAvaxPrices() {
