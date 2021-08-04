@@ -43,7 +43,9 @@ const TOKEN_NAMES = {
     "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd": "JOE",
     "0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4": "XAVA",
     "0xa5E59761eBD4436fa4d20E1A27cBa29FB2471Fc6": "SHERPA",
-    "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C": "ELK"
+    "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C": "ELK",
+    "0x564A341Df6C126f90cf3ECB92120FD7190ACb401": "TRYB",
+    "0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c": "PEFI"
   }
 
 const walletcopy = () => {
@@ -498,13 +500,11 @@ const genpool = async (pool) => {
     stakeDisplay = `Your LP value is <b>${reserve0Owned.toFixed(3)}</b> ${TOKEN_NAMES[token0Address]} / <b>${reserve1Owned.toFixed(3)}</b> ${TOKEN_NAMES[token1Address]} ($<b>${value.toFixed(2)}</b>)**</b>`
   }
   layoutpool({
-    logo_token1: TOKEN_NAMES[pool.token0] == "VSO" ? 'https://assets.coingecko.com/coins/images/15169/small/versa.PNG' 
-               : TOKEN_NAMES[pool.token0] == "JOE"  ? 'https://www.traderjoexyz.com/static/media/logo.bc60f78d.png'
-               : TOKEN_NAMES[pool.token0] == "ELK" ? `https://raw.githubusercontent.com/elkfinance/tokens/main/logos/all/${pool.token0}/logo.png`
+    logo_token1: pool.token0 == '0x846d50248baf8b7ceaa9d9b53bfd12d7d7fbb25a' ? 'https://assets.coingecko.com/coins/images/15169/small/versa.PNG' 
+               : pool.token0 == '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd' ? 'https://www.traderjoexyz.com/static/media/logo.bc60f78d.png'
                : `https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/${pool.token0}/logo.png`,
-    logo_token2: TOKEN_NAMES[pool.token1] == "VSO" ? 'https://assets.coingecko.com/coins/images/15169/small/versa.PNG' 
-               : TOKEN_NAMES[pool.token1] == "JOE" ? 'https://www.traderjoexyz.com/static/media/logo.bc60f78d.png'
-               : TOKEN_NAMES[pool.token1] == "ELK" ? `https://raw.githubusercontent.com/elkfinance/tokens/main/logos/all/${pool.token1}/logo.png`
+    logo_token2: pool.token1 == '0x846d50248baf8b7ceaa9d9b53bfd12d7d7fbb25a' ? 'https://assets.coingecko.com/coins/images/15169/small/versa.PNG' 
+               : pool.token1 == '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd' ? 'https://www.traderjoexyz.com/static/media/logo.bc60f78d.png'
                : `https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/${pool.token1}/logo.png`,
     url: pool.network == 'Pangolin' ? `https://app.pangolin.exchange/#/add/${pool.token0.toLowerCase()}/${pool.token1.toLowerCase()}` 
        : pool.network == 'TraderJoe' ? `https://www.traderjoexyz.com/#/pool/${pool.token0.toLowerCase()}/${pool.token1.toLowerCase()}`

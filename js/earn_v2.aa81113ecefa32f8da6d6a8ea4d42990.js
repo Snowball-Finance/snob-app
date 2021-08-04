@@ -106,8 +106,9 @@ async function main() {
     "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd": "JOE",
     "0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4": "XAVA",
     "0xa5E59761eBD4436fa4d20E1A27cBa29FB2471Fc6": "SHERPA",
-    "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C": "ELK"
-
+    "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C": "ELK",
+    "0x564A341Df6C126f90cf3ECB92120FD7190ACb401": "TRYB",
+    "0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c": "PEFI"
   }
 
   const stakeUnstake = (amount, stake, st) => {
@@ -200,14 +201,18 @@ async function main() {
 
       claimableSnowballs += pendingSNOBTokensPool / 1e18;
 
-      let logo_token0 = TOKEN_NAMES[token_0] == "JOE" ? 'https://www.traderjoexyz.com/static/media/logo.bc60f78d.png'
-                      : TOKEN_NAMES[token_0] == "ELK" ? `https://raw.githubusercontent.com/elkfinance/tokens/main/logos/all/${token_0}/logo.png`
-                      : TOKEN_NAMES[token_0] == "VSO" ? 'https://assets.coingecko.com/coins/images/15169/small/versa.PNG'
-                      : `https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/${token_0}/logo.png`;
-      let logo_token1 = TOKEN_NAMES[token_1] == "JOE" ? 'https://www.traderjoexyz.com/static/media/logo.bc60f78d.png'
-                      : TOKEN_NAMES[token_1] == "ELK" ? `https://raw.githubusercontent.com/elkfinance/tokens/main/logos/all/${token_1}/logo.png`
-                      : TOKEN_NAMES[token_0] == "VSO" ? 'https://assets.coingecko.com/coins/images/15169/small/versa.PNG'
-                      : `https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/${token_1}/logo.png`;
+      let logo_token0 = `https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/${token_0}/logo.png`;
+      let logo_token1 = `https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/${token_1}/logo.png`;
+      const JOE_ADDRESS = '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd';
+      const JOE_logo = 'https://www.traderjoexyz.com/static/media/logo.bc60f78d.png';
+      //check if this is JOE token (because their logo isnt in the bridge repo)
+      if(token_0.toLowerCase() ===  JOE_ADDRESS.toLowerCase()){
+        logo_token0 = JOE_logo;
+      }
+      if(token_1.toLowerCase() ===  JOE_ADDRESS.toLowerCase()){
+        logo_token1 = JOE_logo;
+      }
+
       pool({
         logo_token0 : logo_token0,
         logo_token1 : logo_token1,
