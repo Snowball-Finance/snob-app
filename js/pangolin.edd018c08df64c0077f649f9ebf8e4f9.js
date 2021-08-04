@@ -151,6 +151,36 @@ const thispagespools = [
     token1: '0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4',
     pair: '0x851D47BE09BD0D3c2B24922e34a4f8AE05456924',
     stake: '0x5b3Ed7f47D1d4FA22b559D043a09d78bc55A94E9'
+  },
+  {
+    pool_id: 'png-pefi-png',
+    network: 'Pangolin',
+    snowglobe: '0xf5b4Ba166b8b351C0dF92BdD6bf7d46d537185fB',
+    nickname: 'PNG-PEFI Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c',
+    pair: '0x1bb5541EcCdA68A352649954D4C8eCe6aD68338d',
+    stake: '0x76e404Ab7357fD97d4f1e8Dd52f298A035fd408c'
+  },
+  {
+    pool_id: 'png-sherpa-png',
+    network: 'Pangolin',
+    snowglobe: '0x8406aAF035c2c50239b32D1cb4583916c1F1c094',
+    nickname: 'PNG-SHERPA Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0xa5E59761eBD4436fa4d20E1A27cBa29FB2471Fc6',
+    pair: '0x3DCC9711558115bFB73db19E8326cD717F6E5540',
+    stake: '0x80E919784e7c5AD3Dd59cAfCDC0e9C079B65f262'
+  },
+  {
+    pool_id: 'png-tryb-png',
+    network: 'Pangolin',
+    snowglobe: '0xd7E8d994e0ac76a8c41496290A11CA212F074851',
+    nickname: 'PNG-TRYB Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0x564A341Df6C126f90cf3ECB92120FD7190ACb401',
+    pair: '0x471163B54b5db0497cd9eAFCb1b53CC569d71B76',
+    stake: '0x0A9773AEbc1429d860A492d70c8EA335fAa9F19f'
   }
 ]
 
