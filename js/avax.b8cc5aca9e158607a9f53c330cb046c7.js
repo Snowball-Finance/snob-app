@@ -313,6 +313,96 @@ $(function () {
       token1: '0x564A341Df6C126f90cf3ECB92120FD7190ACb401',
       pair: '0x6b41673fEff1bf0b55Ba2C9F4bf213b2bE8F474D',
       stake: '0x079a479e270E72A1899239570912358C6BC22d94'
+    },
+    {
+      pool_id: 'png-avax-usdt.e',
+      network: 'Pangolin',
+      snowglobe: '0x7CC8068AB5FC2D8c843C4b1A6572a1d1E742D7c8',
+      nickname: 'AVAX-USDT.e Pangolin LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
+      pair: '0xe28984e1EE8D431346D32BeC9Ec800Efb643eef4',
+      stake: '0x006cC053bdb84C2d6380B3C4a573d84636378A47'
+    },
+    {
+      pool_id: 'png-avax-dai.e',
+      network: 'Pangolin',
+      snowglobe: '0x56A6e103D860FBb991eF1Afd24250562a292b2a5',
+      nickname: 'AVAX-DAI.e Pangolin LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0xd586E7F844cEa2F87f50152665BCbc2C279D8d70',
+      pair: '0xbA09679Ab223C6bdaf44D45Ba2d7279959289AB0',
+      stake: '0x63A84F66b8c90841Cb930F2dC3D28799F0c6657B'
+    },
+    {
+      pool_id: 'png-avax-sushi.e',
+      network: 'Pangolin',
+      snowglobe: '0x5cce813cd2bBbA5aEe6fddfFAde1D3976150b860',
+      nickname: 'AVAX-SUSHI.e Pangolin LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76',
+      pair: '0xF62381AFFdfd27Dba91A1Ea2aCf57d426E28c341',
+      stake: '0x2D55341f2abbb5472020e2d556a4f6B951C8Fa22'
+    },
+    {
+      pool_id: 'png-avax-link.e',
+      network: 'Pangolin',
+      snowglobe: '0x08D5Cfaf58a10D306937aAa8B0d2eb40466f7461',
+      nickname: 'AVAX-LINK.e Pangolin LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0x5947BB275c521040051D82396192181b413227A3',
+      pair: '0x5875c368Cddd5FB9Bf2f410666ca5aad236DAbD4',
+      stake: '0x2e10D9d08f76807eFdB6903025DE8e006b1185F5'
+    },
+    {
+      pool_id: 'png-avax-wbtc.e',
+      network: 'Pangolin',
+      snowglobe: '0x04A3B139fcD004b2A4f957135a3f387124982133',
+      nickname: 'AVAX-WBTC.e Pangolin LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0x50b7545627a5162F82A992c33b87aDc75187B218',
+      pair: '0x5764b8D8039C6E32f1e5d8DE8Da05DdF974EF5D3',
+      stake: '0x30CbF11f6fcc9FC1bF6E55A6941b1A47A56eAEC5'
+    },
+    {
+      pool_id: 'png-avax-eth.e',
+      network: 'Pangolin',
+      snowglobe: '0xfEC005280ec0870A5dB1924588aE532743CEb90F',
+      nickname: 'AVAX-ETH.e Pangolin LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB',
+      pair: '0x7c05d54fc5CB6e4Ad87c6f5db3b807C94bB89c52',
+      stake: '0x830A966B9B447c9B15aB24c0369c4018E75F31C9'
+    },
+    {
+      pool_id: 'png-avax-yfi.e',
+      network: 'Pangolin',
+      snowglobe: '0x2ad520b64e6058654FE6E67bc790221772b63ecE',
+      nickname: 'AVAX-YFI.e Pangolin LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc',
+      pair: '0x9a634CE657681200B8c5fb3Fa1aC59Eb0662f45C',
+      stake: '0x642c5B7AC22f56A0eF87930a89f0980FcA904B03'
+    },
+    {
+      pool_id: 'png-avax-uni.e',
+      network: 'Pangolin',
+      snowglobe: '0xf2596c84aCf1c7350dCF6941604DEd359dD506DB',
+      nickname: 'AVAX-UNI.e Pangolin LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580',
+      pair: '0x99dD520748eB0355c69DAE2692E4615C8Ab031ce',
+      stake: '0x6E36A71c1A211f01Ff848C1319D4e34BB5483224'
+    },
+    {
+      pool_id: 'png-avax-aave.e',
+      network: 'Pangolin',
+      snowglobe: '0x7F8E7a8Bd63A113B202AE905877918Fb9cA13091',
+      nickname: 'AVAX-AAVE.e Pangolin LP',
+      token0: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      token1: '0x63a72806098Bd3D9520cC43356dD78afe5D386D9',
+      pair: '0x5944f135e4F1E3fA2E5550d4B5170783868cc4fE',
+      stake: '0xa04fCcE7955312709c838982ad0E297375002C32'
     }
   ]
   
