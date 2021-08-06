@@ -181,6 +181,96 @@ const thispagespools = [
     token1: '0x564A341Df6C126f90cf3ECB92120FD7190ACb401',
     pair: '0x471163B54b5db0497cd9eAFCb1b53CC569d71B76',
     stake: '0x0A9773AEbc1429d860A492d70c8EA335fAa9F19f'
+  },
+  {
+    pool_id: 'png-yfi.e-png',
+    network: 'Pangolin',
+    snowglobe: '0xBc00e639a4795D7DfB43179866acB45eE5169fAE',
+    nickname: 'PNG-YFI.e Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc',
+    pair: '0x32Db611163CB2243E43d61D7721EBAa0226e8e08',
+    stake: '0x269Ed6B2040f965D9600D0859F36951cB9F01460'
+  },
+  {
+    pool_id: 'png-uni.e-png',
+    network: 'Pangolin',
+    snowglobe: '0x351BA4c9b0F09aA76a8Aba8b1cF924aE98beb790',
+    nickname: 'PNG-UNI.e Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580',
+    pair: '0x792828974273725A7027da1C2341f4162e17174b',
+    stake: '0xD4E49A8Ec23daB51ACa459D233e9447DE03AFd29'
+  },
+  {
+    pool_id: 'png-aave.e-png',
+    network: 'Pangolin',
+    snowglobe: '0x9397A0257631955DBee5404506B363ab276D2315',
+    nickname: 'PNG-AAVE.e Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0x63a72806098Bd3D9520cC43356dD78afe5D386D9',
+    pair: '0x11Bc32032002146Cb65Ab391dF5B51682A8d7885',
+    stake: '0x3F91756D773A1455A7a1A70f5d9239F1B1d1f095'
+  },
+  {
+    pool_id: 'png-usdt.e-png',
+    network: 'Pangolin',
+    snowglobe: '0xb3DbF3ff266a604A66dbc1783257377239792828',
+    nickname: 'PNG-USDT.e Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
+    pair: '0x1fFB6ffC629f5D820DCf578409c2d26A2998a140',
+    stake: '0x7216d1e173c1f1Ed990239d5c77d74714a837Cd5'
+  },
+  {
+    pool_id: 'png-dai.e-png',
+    network: 'Pangolin',
+    snowglobe: '0x45981aB8cE749466c1d2022F50e24AbBEE71d15A',
+    nickname: 'PNG-DAI.e Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0xd586E7F844cEa2F87f50152665BCbc2C279D8d70',
+    pair: '0x603efefc3ed65e3F5b6730c603B0cfB4426E0f4f',
+    stake: '0xF344611DD94099708e508C2Deb16628578940d77'
+  },
+  {
+    pool_id: 'png-dai.e-png',
+    network: 'Pangolin',
+    snowglobe: '0x384bcAEA70Ae79823312327a52e498E55c6730dA',
+    nickname: 'PNG-DAI.e Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76',
+    pair: '0xd71a0530b9396d169CF6E48f9e6d72b9594859Ed',
+    stake: '0x923E69322Bea5e22799a29Dcfc9c616F3B5cF95b'
+  },
+  {
+    pool_id: 'png-link.e-png',
+    network: 'Pangolin',
+    snowglobe: '0x92f75Da67c5E647D86A56a5a3D6C9a25e887504A',
+    nickname: 'PNG-LINK.e Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0x5947BB275c521040051D82396192181b413227A3',
+    pair: '0x340d732f44E2Fb8D08719883f1C2ae088EB11682',
+    stake: '0x4B283e4211B3fAa525846d21869925e78f93f189'
+  },
+  {
+    pool_id: 'png-wbtc.e-png',
+    network: 'Pangolin',
+    snowglobe: '0x857f9A61C97d175EaE9E0A8bb74CF701d45a18dc',
+    nickname: 'PNG-WBTC.e Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0x50b7545627a5162F82A992c33b87aDc75187B218',
+    pair: '0xf277e270bc7664E6EBba19620530b83883748a13',
+    stake: '0xEeEA1e815f12d344b5035a33da4bc383365F5Fee'
+  },
+  {
+    pool_id: 'png-eth.e-png',
+    network: 'Pangolin',
+    snowglobe: '0xEC7dA05C3FA5612f708378025fe1C0e1904aFbb5',
+    nickname: 'PNG-ETH.e Pangolin LP',
+    token0: '0x60781C2586D68229fde47564546784ab3fACA982',
+    token1: '0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB',
+    pair: '0xcf35400A595EFCF0Af591D3Aeb5a35cBCD120d54',
+    stake: '0x03a9091620CACeE4968c915232B175C16a584733'
   }
 ]
 

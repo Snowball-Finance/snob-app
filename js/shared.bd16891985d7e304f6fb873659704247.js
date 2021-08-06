@@ -45,7 +45,16 @@ const TOKEN_NAMES = {
     "0xa5E59761eBD4436fa4d20E1A27cBa29FB2471Fc6": "SHERPA",
     "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C": "ELK",
     "0x564A341Df6C126f90cf3ECB92120FD7190ACb401": "TRYB",
-    "0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c": "PEFI"
+    "0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c": "PEFI",
+    "0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc": "YFI.e",
+    "0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580": "UNI.e",
+    "0x63a72806098Bd3D9520cC43356dD78afe5D386D9": "AAVE.e",
+    "0xc7198437980c041c805A1EDcbA50c1Ce5db95118": "USDT.e",
+    "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70": "DAI.e",
+    "0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76": "SUSHI.e",
+    "0x5947BB275c521040051D82396192181b413227A3": "LINK.e",
+    "0x50b7545627a5162F82A992c33b87aDc75187B218": "WBTC.e",
+    "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB": "ETH.e"
   }
 
 const walletcopy = () => {
@@ -499,15 +508,10 @@ const genpool = async (pool) => {
     poolShareDisplay = withdrawDisplay;
     stakeDisplay = `Your LP value is <b>${reserve0Owned.toFixed(3)}</b> ${TOKEN_NAMES[token0Address]} / <b>${reserve1Owned.toFixed(3)}</b> ${TOKEN_NAMES[token1Address]} ($<b>${value.toFixed(2)}</b>)**</b>`
   }
+
   layoutpool({
-    logo_token1: TOKEN_NAMES[pool.token0] == "VSO" ? 'https://assets.coingecko.com/coins/images/15169/small/versa.PNG' 
-               : TOKEN_NAMES[pool.token0] == "JOE"  ? 'https://www.traderjoexyz.com/static/media/logo.bc60f78d.png'
-               : TOKEN_NAMES[pool.token0] == "ELK" ? `https://raw.githubusercontent.com/elkfinance/tokens/main/logos/all/${pool.token0}/logo.png`
-               : `https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/${pool.token0}/logo.png`,
-    logo_token2: TOKEN_NAMES[pool.token1] == "VSO" ? 'https://assets.coingecko.com/coins/images/15169/small/versa.PNG' 
-               : TOKEN_NAMES[pool.token1] == "JOE" ? 'https://www.traderjoexyz.com/static/media/logo.bc60f78d.png'
-               : TOKEN_NAMES[pool.token1] == "ELK" ? `https://raw.githubusercontent.com/elkfinance/tokens/main/logos/all/${pool.token1}/logo.png`
-               : `https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/${pool.token1}/logo.png`,
+    logo_token1: `https://raw.githubusercontent.com/Snowball-Finance/bridge-tokens/main/avalanche-tokens/${pool.token0}/logo.png`,
+    logo_token2: `https://raw.githubusercontent.com/Snowball-Finance/bridge-tokens/main/avalanche-tokens/${pool.token1}/logo.png`,
     url: pool.network == 'Pangolin' ? `https://app.pangolin.exchange/#/add/${pool.token0.toLowerCase()}/${pool.token1.toLowerCase()}` 
        : pool.network == 'TraderJoe' ? `https://www.traderjoexyz.com/#/pool/${pool.token0.toLowerCase()}/${pool.token1.toLowerCase()}`
        : '',
